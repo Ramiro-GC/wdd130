@@ -82,7 +82,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -161,4 +161,122 @@ footer nav {
 footer img {
     width: 40px;
     padding: 0 5px;
+}
+
+/* Contact Page */
+.contact_info{
+    text-align: center;
+    color: #000;
+}
+.contact_info p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: 1.5em;
+}
+.map{
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+.contact_form{
+    display: inline-block;
+    width: 420px;
+    margin: 0 0 0 15px;
+    padding: 0;
+}
+form{
+    margin-left: 50px;
+}
+label{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    width: 100px;
+    font-weight: 400;
+}
+input{
+    display: inline-block;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid var(--accent1-color);
+}
+input[type="radio"]{
+    width: 15px;
+    vertical-align: middle;
+}
+.form_item{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form_item span{
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    vertical-align: middle;
+    margin-top: -20px;
+}
+.radios{
+    display: inline-block;
+    width: 250px;
+    height: 90px;
+}
+.radio_option{
+    width: 250px;
+    display: inline-block;
+}
+.radio_option label{
+    vertical-align: middle;
+    width: 230px;
+}
+.block-label{
+    display: block;
+    margin-top: -20px;
+}
+textarea{
+    width: 100%;
+    display: block;
+    height: 100px;
+    margin-top: 10px;
+}
+.checkbox{
+    height: 50px;
+    width: 100%;
+}
+input[type="checkbox"]{
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.checkbox label{
+    width: 340px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+input[type="submit"]{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    height: 35px;
+    font-size: 18px;
+    color: var(--accent1-color);
+    border: 1px solid var(--accent1-color);
+}
+.team figure{
+    display: inline-block;
+    width: 30%;
+    margin: 10px 1%;
+}
+.team figure img{
+    width: 100%;
+    height: 100%;
+}
+.team figcaption{
+    font-weight: bold;
 }
